@@ -1,10 +1,10 @@
 import { FrameRequest, getFrameMessage, getFrameHtmlResponse } from '@coinbase/onchainkit';
 import { NextRequest, NextResponse } from 'next/server';
-import { NEXT_PUBLIC_URL } from '../../config';
-import jsonData from '../miami.json';
+import { NEXT_PUBLIC_URL } from '../../../config';
+import jsonData from '../../miami.json';
 
 // Function to fetch item from JSON data by index
-function getItemByIndex(index: 10) {
+function getItemByIndex(index: 1) {
 	const item = jsonData[index];
 	return {
 		tokenId: item.tokenId,
@@ -14,27 +14,24 @@ function getItemByIndex(index: 10) {
 
 async function getResponse(req: NextRequest): Promise<NextResponse> {
 	// Fetch item by index (e.g., 1 for the second item)
-	const { tokenId, imageIPFS } = getItemByIndex(10);
+	const { tokenId, imageIPFS } = getItemByIndex(1);
 
 	return new NextResponse(
 		getFrameHtmlResponse({
 			buttons: [
 				{
-					label: `Go Back👉`,
+					label: `Next Property👉`,
 					action: 'post',
 				},
 				{
-					label: `🏠NFT: ${tokenId}`,
-				},
-				{
-					label: '🏠Mint on Propy!'
+					label: `🏠Propy NFT ID: ${tokenId}`,
 				},
 			],
 			image: {
 				src: imageIPFS,
 				aspectRatio: '1:1',
 			},
-			postUrl: `${NEXT_PUBLIC_URL}/api/frame1`,
+			postUrl: `${NEXT_PUBLIC_URL}/api/frame2`,
 			// Additional field to display the tokenId
 		}),
 	);
