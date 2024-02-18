@@ -10,7 +10,7 @@ const frameMetadata = getFrameMetadata({
 
 		// },
 		{
-			label: 'next',
+			label: 'Check out homes on Propy! 🏠',
 			action: 'post',
 
 		},
