@@ -20,7 +20,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 		getFrameHtmlResponse({
 			buttons: [
 				{
-					label: `COOOOOOOOOL !!!! 😎`,
+					label: `IS THIS A SUPERPOWER? 😎`,
 					action: 'post',
 				},
 				// {
