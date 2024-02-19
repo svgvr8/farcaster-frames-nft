@@ -7,4 +7,4 @@ This is a frames on farcaster that uses Propy API to list all properties in Miam
 - Utilizes @coinbase/onchainkit and next/server for efficient request and response handling.
 - Dynamic UI components to display property details (e.g., tokenId, IPFS image).
 
-Follow me on [Warpcas](https://warpcast.com/sagaryadav)
+Follow me on [Warpcast](https://warpcast.com/sagaryadav)
