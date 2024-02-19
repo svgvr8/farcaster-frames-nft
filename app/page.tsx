@@ -17,7 +17,7 @@ const frameMetadata = getFrameMetadata({
 	],
 	image: {
 		// src: `https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMG1yNWZibHVyazlnam1vZWxnYzA1cXZpcHI4aHR6bWdoMXFlOXp0ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/30s4xi40N8v8FREbOC/giphy.gif`,
-		src: `${NEXT_PUBLIC_URL}/cj1.png`,
+		src: `https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTV2aXFobXlxMWd6d29hZXVlMXd2NGp5bzFpM2QyZG96d3lvdm9rYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ImjOFNmmkMjyLR5TkR/giphy-downsized-large.gif`,
 		aspectRatio: '1:1',
 	},
 	postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
