@@ -20,11 +20,11 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 		getFrameHtmlResponse({
 			buttons: [
 				{
-					label: `Next Property👉`,
+					label: `COOOOOOOOOL !!!!`,
 					action: 'post',
 				},
 				{
-					label: `🏠Propy NFT ID: ${tokenId}`,
+					label: `Property ${tokenId}`,
 				},
 			],
 			image: {

@@ -20,15 +20,15 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 		getFrameHtmlResponse({
 			buttons: [
 				{
-					label: `Next Property👉`,
+					label: `OK CJ! I believe you. Let's go! 🏃🏃`,
 					action: 'post',
 				},
-				{
-					label: `🏠Propy NFT ID: ${tokenId}`,
-				},
+				// {
+				// 	label: `🏠Propy NFT ID: ${tokenId}`,
+				// },
 			],
 			image: {
-				src: imageIPFS,
+				src: `${NEXT_PUBLIC_URL}/cj2.png`,
 				aspectRatio: '1:1',
 			},
 			postUrl: `${NEXT_PUBLIC_URL}/api/frame1`,
