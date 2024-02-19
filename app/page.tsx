@@ -35,66 +35,79 @@ export const metadata: Metadata = {
 	},
 };
 export default function Page() {
-	return (
-		<>
-			<style>
-				{`
-			  body {
-				font-family: Arial, sans-serif;
+	return (<>
+		<style>
+			{`
+			@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+	
+			body {
+				font-family: 'Roboto', sans-serif;
 				margin: 0;
 				padding: 0;
-				background-color: #f0f0f0;
-			  }
+				background-color: #1a1a1a; /* Darker background for a sleek look */
+				color: #f0f0f0; /* Light text for contrast */
+			}
 	
-			  .container {
+			.container {
 				max-width: 800px;
 				margin: 50px auto;
 				padding: 20px;
-				background-color: #fff;
+				background-color: #292929; /* Dark container for depth */
 				border-radius: 10px;
-				box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+				box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 				text-align: center;
-			  }
+				transition: transform 0.3s ease; /* Smooth transition for hover effect */
+			}
 	
-			  h1 {
-				font-size: 2.5em;
-				color: #333;
+			.container:hover {
+				transform: translateY(-10px); /* Slight lift effect on hover */
+			}
+	
+			h1 {
+				font-size: 3em;
+				color: #4DD0E1; /* Bright color for headings */
 				margin-bottom: 20px;
-			  }
+			}
 	
-			  p {
+			p {
 				font-size: 1.2em;
-				color: #666;
+				color: #CCCCCC; /* Light grey for readability */
 				line-height: 1.6;
-			  }
+			}
 	
-			  .social-links {
+			.social-links {
 				margin-top: 20px;
-			  }
+			}
 	
-			  .social-links a {
+			.social-links a {
 				display: inline-block;
 				margin-right: 20px;
-				color: #333;
+				color: #f0f0f0;
 				text-decoration: none;
 				font-size: 1.5em;
-			  }
+				transition: color 0.3s ease; /* Transition for color change */
+			}
 	
-			  .social-links a:hover {
-				color: #007bff; /* Change color on hover to a shade of blue */
-			  }
+			.social-links a:hover {
+				color: #FF4081; /* Vibrant hover color */
+				transform: scale(1.1); /* Enlarge icons slightly on hover */
+			}
 			`}
-			</style>
-			<div className="container">
-				<h1>Hello, I'm Sagar!</h1>
-				<p>Welcome to my website! I'm passionate about web3 security and I love ETH Miami. Feel free to explore and get to know more about me.</p>
+		</style>
+		<div className="container">
+			<h1>🌟👋 Hello, I'm Sagar! 🌟</h1>
+			<p>🚀🌐 Welcome to my digital universe! 🌐🚀 I'm Sagar, a fervent enthusiast and innovator in the world of <strong>🔒 Web3 security 🔒</strong>. 🛠️💡 My passion is deeply rooted in the vibrant community of <strong>🌴 ETH Miami 🌴</strong>. Dive in, explore, and let's connect as you discover more about my journey and endeavors in the tech world! 🌍👨‍💻</p>
 
-				<div className="social-links">
-					<a href="https://www.linkedin.com/in/sagr" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-					<a href="https://www.SagarYadav.xyz" target="_blank" rel="noopener noreferrer">Personal Site</a>
-					<a href="mailto:sagarxyadav@gmail.com">Email</a>
-				</div>
+			<div className="social-links">
+				<p>🔗🤝 Connect with me on: 🤝🔗</p>
+				<ul>
+					<li><a href="https://www.warpcast.com/sagaryadav" target="_blank" rel="noopener noreferrer">Warpcast 🌪️🌈</a></li>
+					<li><a href="https://www.sagaryadav.xyz" target="_blank" rel="noopener noreferrer">Personal Site 🏠💼</a></li>
+					<li><a href="https://www.github.com/svgvr8" target="_blank" rel="noopener noreferrer">GitHub 💻👨‍💻</a></li>
+				</ul>
 			</div>
-		</>
+		</div>
+
+	</>
 	);
 }
