@@ -20,20 +20,20 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 		getFrameHtmlResponse({
 			buttons: [
 				{
-					label: `Go Back👉`,
+					label: `REWIND! ⏪`,
 					action: 'post',
 				},
 				// {
 				// 	label: `🏠NFT: ${tokenId}`,
 				// },
 				{
-					label: '🏠Mint on Propy!',
+					label: 'LETS MINT!🪙',
 					action: 'link',
 					target: 'https://propykeys.com/',
 				},
 			],
 			image: {
-				src: imageIPFS,
+				src: `${NEXT_PUBLIC_URL}/cj4.png`,
 				aspectRatio: '1:1',
 			},
 			postUrl: `${NEXT_PUBLIC_URL}/api/frame1`,
