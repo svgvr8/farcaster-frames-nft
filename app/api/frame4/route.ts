@@ -20,7 +20,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 		getFrameHtmlResponse({
 			buttons: [
 				{
-					label: `🏠🏠🏠`,
+					label: `👉👉👉`,
 					action: 'post',
 				},
 				// {
@@ -28,7 +28,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 				// },
 			],
 			image: {
-				src: `${NEXT_PUBLIC_URL}/propy.gif`,
+				src: imageIPFS,
 				aspectRatio: '1:1',
 			},
 			postUrl: `${NEXT_PUBLIC_URL}/api/frame5`,

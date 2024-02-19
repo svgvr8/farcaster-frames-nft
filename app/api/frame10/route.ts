@@ -20,7 +20,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 		getFrameHtmlResponse({
 			buttons: [
 				{
-					label: `REWIND! ⏪`,
+					label: `NAH, LET'S GO BACK!⏪`,
 					action: 'post',
 				},
 				// {
@@ -36,7 +36,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 				src: `${NEXT_PUBLIC_URL}/cj4.png`,
 				aspectRatio: '1:1',
 			},
-			postUrl: `${NEXT_PUBLIC_URL}/api/frame1`,
+			postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
 			// Additional field to display the tokenId
 		}),
 	);
