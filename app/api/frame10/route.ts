@@ -23,9 +23,9 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 					label: `Go Back👉`,
 					action: 'post',
 				},
-				{
-					label: `🏠NFT: ${tokenId}`,
-				},
+				// {
+				// 	label: `🏠NFT: ${tokenId}`,
+				// },
 				{
 					label: '🏠Mint on Propy!',
 					action: 'link',
