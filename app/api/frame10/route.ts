@@ -33,7 +33,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 				},
 			],
 			image: {
-				src: `${NEXT_PUBLIC_URL}/cj4.png`,
+				src: `https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmRzYndoNDFpcW40eHdyNG9yNHhweXp1b251MGF1OXFqczR1ODJpaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TpLkU9CliGNwPMriIV/giphy.gif`,
 				aspectRatio: '1:1',
 			},
 			postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
