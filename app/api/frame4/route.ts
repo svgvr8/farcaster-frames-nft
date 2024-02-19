@@ -23,9 +23,9 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 					label: `👉👉👉`,
 					action: 'post',
 				},
-				// {
-				// 	label: `🏠Propy NFT ID: ${tokenId}`,
-				// },
+				{
+					label: `🏠Propy NFT ID: ${tokenId}`,
+				},
 			],
 			image: {
 				src: imageIPFS,
