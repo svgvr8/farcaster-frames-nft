@@ -16,7 +16,7 @@ const frameMetadata = getFrameMetadata({
 		},
 	],
 	image: {
-		src: `https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXZxYXVneWV5ZXNodG12eWxnZDk2eGloNDA3Z3I5eWZnM2RsYjBxcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0EoByNbBU53ikqSA/giphy.gif`,
+		src: `public/propy.gif`,
 		aspectRatio: '1:1',
 	},
 	postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
