@@ -1,7 +1,7 @@
 import { FrameRequest, getFrameMessage, getFrameHtmlResponse } from '@coinbase/onchainkit';
 import { NextRequest, NextResponse } from 'next/server';
 import { NEXT_PUBLIC_URL } from '../../config';
-import jsonData from '../miami.json';
+import jsonData from '../../../propyAPI/miami.json';
 
 // Function to fetch item from JSON data by index
 function getItemByIndex(index: 7) {

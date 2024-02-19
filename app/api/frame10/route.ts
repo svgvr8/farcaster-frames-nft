@@ -1,7 +1,7 @@
 import { FrameRequest, getFrameMessage, getFrameHtmlResponse } from '@coinbase/onchainkit';
 import { NextRequest, NextResponse } from 'next/server';
 import { NEXT_PUBLIC_URL } from '../../config';
-import jsonData from '../miami.json';
+import jsonData from '../../../propyAPI/miami.json';
 
 // Function to fetch item from JSON data by index
 function getItemByIndex(index: 10) {
@@ -27,7 +27,9 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 					label: `🏠NFT: ${tokenId}`,
 				},
 				{
-					label: '🏠Mint on Propy!'
+					label: '🏠Mint on Propy!',
+					action: 'link',
+					target: 'https://propykeys.com/',
 				},
 			],
 			image: {

@@ -10,13 +10,13 @@ const frameMetadata = getFrameMetadata({
 
 		// },
 		{
-			label: 'Check out homes on Propy! 🏠',
+			label: ' 🔑 Explore Propy Homes 🏠',
 			action: 'post',
 
 		},
 	],
 	image: {
-		src: `https://www.home-designing.com/wp-content/uploads/2017/08/luxury-miami-beach-home.png`,
+		src: `https://propy.com/browse/wp-content/uploads/2022/01/propy-us-nft-newsletter-001-1.jpg`,
 		aspectRatio: '1:1',
 	},
 	postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: 'Sagar Yadav',
 		description: 'ETH MIAMI',
-		images: [`https://www.home-designing.com/wp-content/uploads/2017/08/luxury-miami-beach-home.png`],
+		images: [`https://propy.com/browse/wp-content/uploads/2022/01/propy-us-nft-newsletter-001-1.jpg`],
 	},
 	other: {
 		...frameMetadata,
