@@ -28,7 +28,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 				// },
 			],
 			image: {
-				src: `https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3pvN2x5M3diM3I1M3RoY3I1cXp2em83ZmpyZ2o2ejI1dm4weXZtMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kfOYMmrE0ChhMLSx7S/giphy.gif`,
+				src: `https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGFhb29pNGMyMDQ1a2toYnlqemRja204ZGMxZGdkOWJ2aTVweHpvNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fC57wDDf1tTMbZlOKK/giphy.gif`,
 				aspectRatio: '1:1',
 			},
 			postUrl: `${NEXT_PUBLIC_URL}/api/frame1`,
