@@ -10,7 +10,7 @@ const frameMetadata = getFrameMetadata({
 
 		// },
 		{
-			label: '😨 BUT HOW CJ! I DON`T EVEN HAVE ETHERSCAN 😨',
+			label: '😨 BUT CJ! I DON`T EVEN HAVE ETHERSCAN 😨',
 			action: 'post',
 
 		},
