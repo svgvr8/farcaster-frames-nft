@@ -15,6 +15,8 @@ function getItemByIndex(index: 1) {
 async function getResponse(req: NextRequest): Promise<NextResponse> {
 	// Fetch item by index (e.g., 1 for the second item)
 	const { tokenId, imageIPFS } = getItemByIndex(1);
+	const postUrl = `${NEXT_PUBLIC_URL}/api/frame2`;
+	const postUrl1 = `${NEXT_PUBLIC_URL}/api/frame3`;
 
 	return new NextResponse(
 		getFrameHtmlResponse({
@@ -22,12 +24,12 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 				{
 					label: `IS THIS A SUPERPOWER? 😎`,
 					action: 'post',
-					target: `${NEXT_PUBLIC_URL}/api/frame2`,
+					target: `${postUrl}`,
 				},
 				{
 					label: `Property ${tokenId}`,
 					action: 'post',
-					target: `${NEXT_PUBLIC_URL}/api/frame3`,
+					target: `${postUrl1}`,
 
 				},
 			],
