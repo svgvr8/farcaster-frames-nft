@@ -22,12 +22,12 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 				{
 					label: `IS THIS A SUPERPOWER? 😎`,
 					action: 'post',
-					postUrl: `${NEXT_PUBLIC_URL}/api/frame2`,
+					target: `${NEXT_PUBLIC_URL}/api/frame2`,
 				},
 				{
 					label: `Property ${tokenId}`,
 					action: 'post',
-					postUrl: `${NEXT_PUBLIC_URL}/api/frame3`,
+					target: `${NEXT_PUBLIC_URL}/api/frame3`,
 
 				},
 			],
