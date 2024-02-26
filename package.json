@@ -12,7 +12,7 @@
   "author": "Sagar",
   "license": "MIT",
   "dependencies": {
-    "@coinbase/onchainkit": "0.6.1",
+    "@coinbase/onchainkit": "^0.9.4",
     "@usecapsule/web-sdk": "^0.35.1",
     "next": "13.5.6",
     "react": "^18.2.0",

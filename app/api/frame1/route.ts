@@ -22,17 +22,19 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 				{
 					label: `IS THIS A SUPERPOWER? 😎`,
 					action: 'post',
+					postUrl: `${NEXT_PUBLIC_URL}/api/frame2`,
 				},
-				// {
-				// 	label: `Property ${tokenId}`,
-				// },
+				{
+					label: `Property ${tokenId}`,
+					action: 'post',
+					postUrl: `${NEXT_PUBLIC_URL}/api/frame3`,
+
+				},
 			],
 			image: {
 				src: `${NEXT_PUBLIC_URL}/propy.gif`,
 				aspectRatio: '1:1',
 			},
-			postUrl: `${NEXT_PUBLIC_URL}/api/frame2`,
-			// Additional field to display the tokenId
 		}),
 	);
 }
